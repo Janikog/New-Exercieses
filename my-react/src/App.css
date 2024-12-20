@@ -36,6 +36,7 @@
   width: 825px;
   display: flex;
 }
+
 .inputfield input {
   background-color: #d9d9d9;
   width: 100%;
@@ -43,10 +44,13 @@
   height: 50px;
   border: none;
   font-size: 25px;
+  padding-left: 25px;
 }
-input:focus {
-  border: none;
+
+.inputfield input:focus {
+  outline: none;
 }
+
 .inputfield button {
   border-radius: 20px;
   height: 50px;
