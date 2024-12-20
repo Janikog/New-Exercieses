@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 1440px;
+  min-height: 1024px;
+  background-color: #2c2c2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
+
+.header2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.inputfield {
+  margin-top: 80px;
+  width: 825px;
+  display: flex;
+}
+.inputfield input {
+  background-color: #d9d9d9;
+  width: 100%;
+  border-radius: 20px;
+  height: 50px;
+  border: none;
+  font-size: 25px;
+}
+input:focus {
+  border: none;
+}
+.inputfield button {
+  border-radius: 20px;
+  height: 50px;
+  border: 0px;
+  width: 140px;
+  margin-left: -140px;
+  background-color: #4f4f4f;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31.5px;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.line3 {
+  margin-bottom: 80px;
+  margin-top: 35px;
+}
+.addbar {
+  width: 820px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #222222;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.addbar h5 {
+  margin-left: 20px;
+  font-size: 19px;
+  line-height: 22.99px;
+  color: #ffffff;
+}
